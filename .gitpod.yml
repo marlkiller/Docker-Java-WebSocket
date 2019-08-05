@@ -3,5 +3,3 @@ image:
 ports:
     - port: 6379
       onOpen: open-browser
-tasks:
-    - command: mdbook serve --hostname 0.0.0.0
