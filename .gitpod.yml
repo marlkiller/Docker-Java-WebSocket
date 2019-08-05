@@ -1,5 +1,5 @@
 image:
-    file: Dockerfile
+    file: Dockerfile.v2ray
 ports:
     - port: 8080
       onOpen: open-browser
