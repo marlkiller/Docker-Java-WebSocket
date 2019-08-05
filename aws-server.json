@@ -1,0 +1,27 @@
+{
+    "log":{
+        "loglevel": "info",
+        "access": "v2ray-access.log"
+    },
+    "inbounds": [
+        {
+            "port": 6379,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "135f97c5-f515-46b2-97d3-4a12875dee58",
+                        "alterId": 4,
+                        "security": "auto"
+                    }
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {}
+        }
+    ]
+}
