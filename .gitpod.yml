@@ -1,5 +1,7 @@
 image:
     file: Dockerfile.v2ray
+tasks:
+    command: yarn build    
 ports:
     - port: 6379
       onOpen: open-browser
