@@ -1,7 +1,7 @@
 image:
     file: Dockerfile.v2ray
 tasks:
-    command: yarn build    
+    command: docker build -f  Dockerfile.v2ray -t marlkiller/demo .    
 ports:
     - port: 6379
       onOpen: open-browser
